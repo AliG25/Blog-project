@@ -1,0 +1,182 @@
+html{
+    position: relative;
+    min-height: 100%;
+    font-family: cursive, arial, TimesNewRoman;
+}
+body {
+	background-image: url("http://blandfot.com/wp-content/uploads/2013/11/white-clouds-and-blue-sky_1600x1200_78556.jpg");
+    background-attachment: fixed;
+    
+}
+
+/*body header style*/
+.header{
+    width: 100%;
+    background-image: linear-gradient(to right, #7000B6, #FFE8E8);
+}
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+.logo img {
+   height: 7%;
+   margin: 0;
+}
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    font-style: italic;
+    font-size: 25px;
+}
+
+/*navigation style*/
+nav{
+    clear: right;
+}
+nav{
+    float: right;
+    width: 40%;
+    margin-top: 0;
+    position: static;
+}
+
+nav h2{
+    display: none;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+.menu li{
+    float: left;
+    display: inline-block;
+    text-align: center;
+    width:25%;
+    text-decoration: none;
+	font-size: 20px;
+  
+}
+.menu li a:link, .menu li a:visited {
+    color: #000;
+    text-decoration: none;
+    cursor: hand;
+}
+
+.menu li a:hover, .menu li a:active {
+    color: #0091C0;
+}
+
+ /*quote style*/
+.quote p{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+ /*image style*/
+.me{
+     display: block;
+	 height: 180px;
+	 width: 135px;
+	 margin: 0px auto;
+	 text-align: center;
+}  
+  
+/*article and aside style*/
+article {
+    float: left;
+    width: 60%;
+    text-indent: 30px;
+}
+article h2{
+    display: none;
+}
+.for-now{
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+#about h3{
+    color: #B40000; 
+    text-decoration: overline;
+}
+aside {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+aside li{
+    list-style: none;
+}
+aside li a:link, aside li a:visited {
+    color: #B40000;
+    text-decoration: none;
+    cursor: hand;
+}
+aside li a:hover, aside li a:active {
+    color: #00FF40;
+}
+
+ /*notes*/
+#notes{
+    clear: both;
+    border: 2px solid;
+    margin: auto;
+    text-align: center;
+ }
+#notes li{
+    list-style-type: none;
+}
+#notes li a:link, #notes li a:visited{
+    color: #FFBC2F;
+    text-decoration: none;
+    cursor: hand;
+}
+#notes li a:hover, #notes li a:active{
+    color: #00FF40;
+}
+
+/*photos*/
+.photos{
+    margin: auto;
+    text-align: center;
+}
+.photos img{
+    max-width: 230px;
+    max-height: 180px;
+    border: 2px solid;
+}
+
+/*bucket list styles*/
+#bucket{
+    text-align: center;
+    border: 2px solid;
+}
+#bucket li{
+    list-style-type: none;
+}
+#bucket li a:link, #bucket li a:visited{
+    color: #3DFF4F
+}
+#bucket li a:hover, #bucket li a:active{
+    color: #FF0FB4
+}    
+
+ /*footer styles*/
+ .footer{
+     position: absolute;
+     text-align: center;
+     width: 100%;
+     border-top: 1px solid;
+ }
+ .footer h2{
+     display: none;
+ }
+.social-media{
+     text-align: center;
+ }
